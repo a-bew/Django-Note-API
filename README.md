@@ -50,12 +50,14 @@ curl https://example.com/notes/123
 
 ### Create a new note
 
-```bash curl -X POST -H "Content-Type: application/json" -d '{"body": "This is a new note"}' https://example.com/notes/create/
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"body": "This is a new note"}' https://example.com/notes/create/
 
 ```
 
 ### Update note 123
 
-```bash curl -X PUT -H "Content-Type: application/json" -d '{"body": "This note has been updated"}' https://example.com/notes/123/update/
+```bash
+curl -X PUT -H "Content-Type: application/json" -d '{"body": "This note has been updated"}' https://example.com/notes/123/update/
 
 ```
