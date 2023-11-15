@@ -2,6 +2,45 @@
 
 This is a simple note API built with Django Rest Framework.
 
+## Installation
+
+### Prerequisites
+
+- Python 3.x installed
+- `virtualenv` installed (you can install it using `pip install virtualenv`)
+
+### Setup Virtual Environment
+
+#### macOS/Linux
+
+```bash
+# Create a virtual environment
+python3 -m venv venv
+```
+
+```bash
+# Activate the virtual environment
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+# Create a virtual environment
+python -m venv venv
+```
+
+```bash
+# Activate the virtual environment
+source venv\Scripts\activate
+```
+
+### Install Dependencies
+```
+# Install required packages
+pip install -r requirements.txt
+```
+
 ## Endpoints
 
 ### Get all notes
